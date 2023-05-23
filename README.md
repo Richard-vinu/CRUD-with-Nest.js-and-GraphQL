@@ -8,3 +8,12 @@ GraphQL is a powerful query language for APIs and a runtime for fulfilling those
 
 Installation#
 Start by installing the required packages:
+
+# For Express and Apollo (default)
+$ npm i @nestjs/graphql @nestjs/apollo @apollo/server graphql
+
+# For Fastify and Apollo
+# npm i @nestjs/graphql @nestjs/apollo @apollo/server @as-integrations/fastify graphql
+
+# For Fastify and Mercurius
+# npm i @nestjs/graphql @nestjs/mercurius graphql mercurius
